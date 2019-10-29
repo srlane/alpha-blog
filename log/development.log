@@ -1849,3 +1849,2851 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms | Allocations: 4797)
 
 
+Started GET "/articles" for ::1 at 2019-10-29 13:58:39 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 5062)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 2190ms (Views: 2183.9ms | ActiveRecord: 0.5ms | Allocations: 3453947)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:58:48 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.1ms | Allocations: 14079)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:08 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 14020)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:11 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 14008)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:13 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1049)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.2ms | Allocations: 14013)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:14 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.2ms | Allocations: 14021)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:15 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.3ms | Allocations: 14007)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:15 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.3ms | Allocations: 14006)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:50 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.1ms | Allocations: 14004)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:52 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.1ms | Allocations: 14010)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 14007)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 13:59:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 14004)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:00:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1293)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 119)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.1ms | Allocations: 15739)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:01:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 128)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.1ms | Allocations: 15736)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:02:04 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 140)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.1ms | Allocations: 15733)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:02:34 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.3ms | Allocations: 15721)
+
+
+Started GET "/articles" for 127.0.0.1 at 2019-10-29 14:02:43 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.1ms | Allocations: 13906)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:16:13 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 5062)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 650ms (Views: 643.9ms | ActiveRecord: 0.5ms | Allocations: 1321892)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:17:31 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 5049)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/stylesheets/custom.css.scss to /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/stylesheets/custom.scss. (called from _app_views_layouts_application_html_erb__3546635629224916047_46971650869800 at /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/stylesheets/custom.css.scss to /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/stylesheets/custom.scss. (called from _app_views_layouts_application_html_erb__3546635629224916047_46971650869800 at /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/views/layouts/application.html.erb:8)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1179ms (Views: 1172.3ms | ActiveRecord: 0.4ms | Allocations: 2601493)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:18:23 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 5058)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1257ms (Views: 1251.5ms | ActiveRecord: 0.5ms | Allocations: 2623631)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:19:38 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 5118)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.4ms | Allocations: 306927)
+
+
+  
+ActionView::Template::Error (couldn't find file 'rails_ujs' with type 'application/javascript'
+Checked in these paths: 
+  /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/config
+  /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/images
+  /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/javascripts
+  /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/assets/stylesheets
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actioncable-6.0.0/app/assets/javascripts
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activestorage-6.0.0/app/assets/javascripts
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionview-6.0.0/lib/assets/compiled
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/node_modules
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /home/srlane/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:3
+app/views/layouts/application.html.erb:8
+Started GET "/articles" for ::1 at 2019-10-29 14:20:29 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 5042)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 579ms (Views: 573.3ms | ActiveRecord: 0.4ms | Allocations: 1299022)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:20:35 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 13613)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:20:37 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.3ms | Allocations: 13604)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:21:26 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.3ms | Allocations: 13582)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:22:27 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 4913)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 786ms (Views: 780.6ms | ActiveRecord: 0.4ms | Allocations: 1339207)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:29:55 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 5094)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1405ms (Views: 1398.5ms | ActiveRecord: 0.5ms | Allocations: 1344627)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:06 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.1ms | Allocations: 10827)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:07 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.3ms | Allocations: 10808)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:08 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.3ms | Allocations: 10814)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:08 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms | Allocations: 10816)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:09 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.2ms | Allocations: 10794)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:10 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 10784)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:10 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.3ms | Allocations: 10792)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:11 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms | Allocations: 10784)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.1ms | Allocations: 10789)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms | Allocations: 10791)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:30:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 10789)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:39:44 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1064)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 10809)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:39:45 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.3ms | Allocations: 10788)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:39:45 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.4ms | Allocations: 10794)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:39:46 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:39:48 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.2ms | Allocations: 10786)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:21 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 10789)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:23 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:24 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms | Allocations: 10793)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:24 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.3ms | Allocations: 10786)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.3ms | Allocations: 10784)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.2ms | Allocations: 10787)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 10789)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:26 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.1ms | Allocations: 10792)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:49 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.2ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 10791)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.1ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.3ms | Allocations: 10790)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:54 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 10788)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:40:54 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.3ms | Allocations: 10788)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:44:19 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 5025)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 148)
+Completed 200 OK in 1353ms (Views: 1345.0ms | ActiveRecord: 1.2ms | Allocations: 1351333)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:45:36 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 508ms (Views: 507.1ms | ActiveRecord: 0.1ms | Allocations: 37352)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:45:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms | Allocations: 11747)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:45:51 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 4989)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 602ms (Views: 595.7ms | ActiveRecord: 0.7ms | Allocations: 1307577)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:46:19 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 5101)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 586ms (Views: 579.5ms | ActiveRecord: 1.2ms | Allocations: 1294287)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:46:21 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 11768)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:46:49 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 5134)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 584ms (Views: 577.8ms | ActiveRecord: 0.5ms | Allocations: 1296910)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:47:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.2ms | Allocations: 13474)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:47:36 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 5114)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 580ms (Views: 573.8ms | ActiveRecord: 0.6ms | Allocations: 1294227)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:47:38 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.2ms | Allocations: 11763)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:47:54 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 4916)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 570ms (Views: 563.2ms | ActiveRecord: 0.4ms | Allocations: 1294290)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:48:11 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 5094)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 599ms (Views: 586.4ms | ActiveRecord: 6.6ms | Allocations: 1294064)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:48:33 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 5025)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 611ms (Views: 596.2ms | ActiveRecord: 8.2ms | Allocations: 1294223)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:49:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.2ms | Allocations: 13481)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:49:37 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.3ms | Allocations: 13448)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:50:44 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 713ms (Views: 711.9ms | ActiveRecord: 0.1ms | Allocations: 30455)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:50:46 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms | Allocations: 10884)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:51:04 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1291)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.1ms | Allocations: 12600)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:51:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.3ms | Allocations: 12634)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:51:36 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.2ms | Allocations: 12585)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:54:09 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 5044)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 127)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 148)
+Completed 200 OK in 1303ms (Views: 1297.3ms | ActiveRecord: 0.5ms | Allocations: 1331965)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:55:30 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.2ms | Allocations: 13885)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:57:09 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 13319)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:59:05 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 522ms (Views: 520.5ms | ActiveRecord: 0.1ms | Allocations: 35466)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 14:59:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 523ms (Views: 522.3ms | ActiveRecord: 0.1ms | Allocations: 32920)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:00:09 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 475ms (Views: 474.0ms | ActiveRecord: 0.1ms | Allocations: 32949)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:00:14 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.2ms | Allocations: 11588)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:01:09 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 11645)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:01:12 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 11574)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:08:07 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1309)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 13393)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:08:09 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.2ms | Allocations: 11619)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:08:12 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 196)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 11335)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:08:17 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 10619)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:08:20 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 11625)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:10 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 224)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms | Allocations: 13400)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:12 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 61)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 11637)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:14 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 59)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.1ms | Allocations: 11627)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:14 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 59)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.3ms | Allocations: 11625)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:10:15 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 195)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 60)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 11349)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:16 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 61)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 11640)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:36 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 7.8ms | Allocations: 5361)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.1ms | Allocations: 18184)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:10:55 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1052)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 1033)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.2ms | Allocations: 12506)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <%= link_to "Alpha Blog", root_path, class: "navbar-brand", id: "logo" %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <%= link_to "Articles", articles_path, class="nav-link" %>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:      <%= link_to "Alpha Blog", root_path, class: "navbar-brand", id: "logo" %>
+3:      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+4:        <span class="navbar-toggler-icon"></span>
+5:      </button>
+6:    
+7:      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+8:        <ul class="navbar-nav mr-auto">
+9:          <li class="nav-item active">
+10:            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+11:          </li>
+12:          <li class="nav-item">
+13:            <%= link_to "Articles", articles_path, class="nav-link" %>
+14:          </li>
+15:          <li class="nav-item dropdown">
+16:            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+17:              Dropdown
+18:            </a>
+19:            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+20:              <a class="dropdown-item" href="#">Action</a>
+21:              <a class="dropdown-item" href="#">Another action</a>
+22:              <div class="dropdown-divider"></div>
+23:              <a class="dropdown-item" href="#">Something else here</a>
+24:            </div>
+25:          </li>
+26:          <li class="nav-item">
+27:            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+28:          </li>
+29:        </ul>
+30:        <form class="form-inline my-2 my-lg-0">
+31:          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+32:          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+33:        </form>
+34:      </div>
+35:    </nav>
+  
+app/views/layouts/_navigation.html.erb:13: syntax error, unexpected '='
+app/views/layouts/_navigation.html.erb:13: syntax error, unexpected '='
+app/views/layouts/_navigation.html.erb:13: syntax error, unexpected '='
+app/views/layouts/_navigation.html.erb:13: syntax error, unexpected '='
+app/views/layouts/_navigation.html.erb:13: syntax error, unexpected '='
+app/views/layouts/_navigation.html.erb:13: syntax error, unexpected '='
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2019-10-29 15:11:11 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1302)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 231)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.3ms | Allocations: 13468)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:11:14 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.3ms | Allocations: 1055)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 68)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.1ms | Allocations: 11646)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:11:16 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 66)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 11638)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:11:17 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 195)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 67)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 11355)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:11:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 68)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.2ms | Allocations: 11646)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:33 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 283)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 13461)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:36 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 11671)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:39 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 11659)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:39 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.2ms | Allocations: 11658)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.2ms | Allocations: 11660)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms | Allocations: 11665)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms | Allocations: 11661)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 11661)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 11661)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 11662)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 11662)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:13:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms | Allocations: 11663)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:21 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 276)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 13456)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:23 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 11670)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:24 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 11660)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:24 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 11659)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.2ms | Allocations: 11663)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 11665)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:28 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.1ms | Allocations: 11664)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:28 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 11664)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:28 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms | Allocations: 11660)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:28 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.1ms | Allocations: 11662)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 11664)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 11660)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 11665)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 11662)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:16:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 11665)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:18:05 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1291)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 281)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 140)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 13469)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:18:09 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 11670)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:20:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 222)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms | Allocations: 13396)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:22:55 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5126)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 121)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 600ms (Views: 588.3ms | ActiveRecord: 6.5ms | Allocations: 1303058)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:23:31 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 13308)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:23:34 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms | Allocations: 11580)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:23:50 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 112)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.2ms | Allocations: 13299)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:23:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.2ms | Allocations: 11582)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:23:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.3ms | Allocations: 11595)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:37 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.1ms | Allocations: 13291)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1053)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms | Allocations: 11586)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.2ms | Allocations: 11569)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 11573)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.1ms | Allocations: 11568)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms | Allocations: 11574)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.2ms | Allocations: 11581)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 11570)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 11573)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.3ms | Allocations: 11572)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.3ms | Allocations: 11574)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1054)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.1ms | Allocations: 11589)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.3ms | Allocations: 11579)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:24:51 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1046)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.1ms | Allocations: 11579)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:26:44 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 5058)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 583ms (Views: 577.1ms | ActiveRecord: 0.7ms | Allocations: 1294021)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:27:02 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 93)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 140)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 13294)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:28:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 13290)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:29:43 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.1ms | Allocations: 13311)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:30:00 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.2ms | Allocations: 13292)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:30:14 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms | Allocations: 13310)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:30:49 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 4950)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 126)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 632ms (Views: 626.2ms | ActiveRecord: 0.4ms | Allocations: 1294051)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:31:07 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.3ms | Allocations: 13311)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:31:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1294)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.1ms | Allocations: 13315)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:32:08 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 118)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 13285)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:33:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1286)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 119)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.2ms | Allocations: 13294)
+
+
+Started GET "/application.js" for ::1 at 2019-10-29 15:33:27 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/articles" for ::1 at 2019-10-29 15:34:15 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1090)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.4ms | Allocations: 11655)
+
+
+Started GET "/application.js" for ::1 at 2019-10-29 15:34:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/articles" for ::1 at 2019-10-29 15:38:21 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 4906)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 247)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 603ms (Views: 596.4ms | ActiveRecord: 0.5ms | Allocations: 1295813)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:38:24 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1061)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 68)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.2ms | Allocations: 11663)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:39:31 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 5074)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 252)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 571ms (Views: 564.4ms | ActiveRecord: 0.5ms | Allocations: 1294192)
+
+
+Started GET "/articles" for ::1 at 2019-10-29 15:41:28 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:10
+  Rendered articles/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 5094)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 303)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 614ms (Views: 607.5ms | ActiveRecord: 1.3ms | Allocations: 1294190)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:41:33 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 5.1ms | Allocations: 2728)
+  Rendered articles/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3034)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 95)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 13830)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:43:59 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 4.6ms | Allocations: 1035)
+  Rendered articles/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1337)
+  Rendered layouts/_navigation.html.erb (Duration: 3.4ms | Allocations: 1887)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 15136)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:45:23 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1035)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1337)
+  Rendered layouts/_navigation.html.erb (Duration: 71.5ms | Allocations: 34881)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms | Allocations: 48131)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:45:28 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 727)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 790)
+  Rendered layouts/_navigation.html.erb (Duration: 18.8ms | Allocations: 28047)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 39366)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:45:31 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.0ms | Allocations: 718)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 781)
+  Rendered layouts/_navigation.html.erb (Duration: 13.0ms | Allocations: 27991)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms | Allocations: 39304)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:45:32 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.1ms | Allocations: 718)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 782)
+  Rendered layouts/_navigation.html.erb (Duration: 25.0ms | Allocations: 27991)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 39306)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:45:33 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 201)
+  Rendered layouts/_navigation.html.erb (Duration: 14.2ms | Allocations: 27994)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 39288)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:45:34 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 727)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 790)
+  Rendered layouts/_navigation.html.erb (Duration: 17.4ms | Allocations: 27993)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 39318)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:46:17 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.0ms | Allocations: 1035)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1337)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 281)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 41440)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:46:19 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 195)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 39269)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:46:21 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.9ms | Allocations: 727)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 790)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 95)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 39316)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:46:22 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 38569)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:47:38 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 338)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 296)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1444ms (Views: 1439.1ms | ActiveRecord: 0.0ms | Allocations: 1369528)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:47:45 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 2738)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 3044)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 95)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 0.4ms | Allocations: 46440)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:47:46 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms | Allocations: 38834)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:49:27 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 282)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 140)
+Completed 200 OK in 479ms (Views: 478.9ms | ActiveRecord: 0.0ms | Allocations: 61547)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:50:05 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 499ms (Views: 498.1ms | ActiveRecord: 0.0ms | Allocations: 61116)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:50:15 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 490ms (Views: 489.3ms | ActiveRecord: 0.0ms | Allocations: 60232)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:51:21 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 481ms (Views: 480.3ms | ActiveRecord: 0.0ms | Allocations: 60200)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:52:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 70)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 456ms (Views: 455.7ms | ActiveRecord: 0.0ms | Allocations: 60200)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:52:35 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 503ms (Views: 502.1ms | ActiveRecord: 0.0ms | Allocations: 60238)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:52:59 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 38906)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:54:33 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 197)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 277)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 483ms (Views: 482.0ms | ActiveRecord: 0.0ms | Allocations: 61520)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:54:45 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 486ms (Views: 484.9ms | ActiveRecord: 0.0ms | Allocations: 60249)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:55:16 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 491ms (Views: 490.0ms | ActiveRecord: 0.0ms | Allocations: 60237)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:55:27 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 69)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 497ms (Views: 495.7ms | ActiveRecord: 0.0ms | Allocations: 60627)
+
+
+Started GET "/articles/new" for ::1 at 2019-10-29 15:56:05 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.6ms | Allocations: 1035)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1342)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 95)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 40690)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:56:10 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 38836)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:59:10 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 140)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 298)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 40498)
+
+
+Started GET "/" for ::1 at 2019-10-29 15:59:51 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 130)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 298)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 40463)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:09:22 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 131)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 298)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 602ms (Views: 601.6ms | ActiveRecord: 0.0ms | Allocations: 62284)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:13:15 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 267)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 148)
+Completed 200 OK in 1547ms (Views: 1541.7ms | ActiveRecord: 0.0ms | Allocations: 1374844)
+
+
+Started GET "/rhUhz.jpg" for ::1 at 2019-10-29 16:13:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/rhUhz.jpg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-29 16:15:03 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 268)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1324ms (Views: 1319.0ms | ActiveRecord: 0.0ms | Allocations: 1350596)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/rhUhz.jpg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.0) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.0) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.0) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.0) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-29 16:16:39 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 331)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1360ms (Views: 1355.2ms | ActiveRecord: 0.0ms | Allocations: 1350988)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/rhUhZ.jpg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.0) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.0) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.0) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.0) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-29 16:17:21 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 296)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1356ms (Views: 1351.0ms | ActiveRecord: 0.0ms | Allocations: 1350654)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/rhUhZ.jpg"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.0) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.0) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.0) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.0) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-29 16:18:52 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 311)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1358ms (Views: 1352.4ms | ActiveRecord: 0.0ms | Allocations: 1352367)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:19:11 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 287)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1404ms (Views: 1399.5ms | ActiveRecord: 0.0ms | Allocations: 1352621)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:20:21 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 351)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 331)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 1369ms (Views: 1363.6ms | ActiveRecord: 0.0ms | Allocations: 1353297)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:22:56 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 26)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 122)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 500ms (Views: 499.1ms | ActiveRecord: 0.0ms | Allocations: 62101)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:24:05 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 508ms (Views: 506.5ms | ActiveRecord: 0.0ms | Allocations: 62080)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:24:32 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 487ms (Views: 486.5ms | ActiveRecord: 0.0ms | Allocations: 62048)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:24:43 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 508ms (Views: 506.8ms | ActiveRecord: 0.0ms | Allocations: 61659)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:25:05 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 542ms (Views: 539.8ms | ActiveRecord: 0.0ms | Allocations: 62051)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:25:23 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 25)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 39458)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:26:18 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 25)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 524ms (Views: 522.2ms | ActiveRecord: 0.0ms | Allocations: 61666)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:27:02 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 483ms (Views: 482.2ms | ActiveRecord: 0.0ms | Allocations: 62051)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:27:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 39457)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:28:10 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 25)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 537ms (Views: 537.1ms | ActiveRecord: 0.0ms | Allocations: 62049)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:28:38 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 531ms (Views: 530.2ms | ActiveRecord: 0.0ms | Allocations: 62898)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:31:06 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 138)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 298)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+Completed 200 OK in 518ms (Views: 517.3ms | ActiveRecord: 0.0ms | Allocations: 63363)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:33:09 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 122)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 526ms (Views: 525.7ms | ActiveRecord: 0.0ms | Allocations: 62112)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:34:21 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 299)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 140)
+Completed 200 OK in 502ms (Views: 500.7ms | ActiveRecord: 0.0ms | Allocations: 63746)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:35:43 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 122)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 526ms (Views: 524.9ms | ActiveRecord: 0.0ms | Allocations: 61669)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:36:17 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 498ms (Views: 497.2ms | ActiveRecord: 0.0ms | Allocations: 61658)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:36:31 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 517ms (Views: 515.7ms | ActiveRecord: 0.0ms | Allocations: 61662)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:39:55 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 135)
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 303)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 140)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 41538)
+
+
+Started GET "/about" for ::1 at 2019-10-29 16:40:11 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 154)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 39773)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:40:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 39541)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:40:56 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 522ms (Views: 521.5ms | ActiveRecord: 0.0ms | Allocations: 61766)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:42:27 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 527ms (Views: 526.7ms | ActiveRecord: 0.0ms | Allocations: 62991)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:42:57 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 508ms (Views: 507.7ms | ActiveRecord: 0.0ms | Allocations: 62163)
+
+
+Started GET "/" for ::1 at 2019-10-29 16:43:06 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 24)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 39539)
+
+

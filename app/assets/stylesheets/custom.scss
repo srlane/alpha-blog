@@ -1,0 +1,79 @@
+@import "bootstrap";
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    text-transform: upercase;
+    letter-space: -1px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.dropdown-item {
+    color: #fff;
+    background-color: #000;
+}
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    color: #fff;
+    background-image: image-url('rhUhZ.jpg');
+    background-size: cover;
+    height: 550px;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: #000;
+}
+
+.btn-search {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-search:hover {
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #EAEAEA;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
