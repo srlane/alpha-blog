@@ -11330,3 +11330,81 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 42259)
 
 
+Started GET "/signup" for ::1 at 2019-10-30 17:54:34 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/srlane/Notes/ruby-projects/rails-projects/alpha-blog/app/controllers/users_controller.rb:17: syntax error, unexpected tIVAR, expecting end
+      session[:user_id] @user.id
+                        ^~~~~):
+  
+app/controllers/users_controller.rb:17: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:17: syntax error, unexpected tIVAR, expecting end
+app/controllers/users_controller.rb:17: syntax error, unexpected tIVAR, expecting end
+Started GET "/signup" for ::1 at 2019-10-30 17:54:42 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.2ms | Allocations: 221)
+  Rendered users/_form.html.erb (Duration: 2.8ms | Allocations: 3462)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3770)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 556)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 204)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 146)
+Completed 200 OK in 612ms (Views: 607.6ms | ActiveRecord: 0.4ms | Allocations: 1332908)
+
+
+Started POST "/users" for ::1 at 2019-10-30 17:55:11 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"V1nXInnJcZueRiQGsCZf51kUjLnChGDsDEc81vl8dVVeuzrS3Nsrv2RIIpvboBOI1/Hj/oeawW1QHU39e1tsUw==", "user"=>{"username"=>"johndoe", "email"=>"johndoe@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER(?) LIMIT ?[0m  [["username", "johndoe"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "johndoe@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["username", "johndoe"], ["email", "johndoe@example.com"], ["created_at", "2019-10-30 22:55:12.068667"], ["updated_at", "2019-10-30 22:55:12.068667"], ["password_digest", "$2a$12$lweYI3u2/3hA.xMorm46QOzEiu1NqVYscA8CXicmmg7SyG8rvgO5W"]]
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+Redirected to http://localhost:3001/users/11
+Completed 302 Found in 201ms (ActiveRecord: 4.6ms | Allocations: 6462)
+
+
+Started GET "/users/11" for ::1 at 2019-10-30 17:55:12 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:48:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 11]]
+  ↳ app/views/users/show.html.erb:9
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 11], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  Rendered articles/_article.html.erb (Duration: 1.0ms | Allocations: 959)
+  Rendered users/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2131)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 816)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 44ms (Views: 38.8ms | ActiveRecord: 0.6ms | Allocations: 49099)
+
+
+Started DELETE "/logout" for ::1 at 2019-10-30 17:55:22 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uVjAl3w7F0wogc1Nb10StAoZa8uQcb+woftDP8ITiA+wui1n2SlNaNKPy9AE217bhPwEjNVvHjH9oTIUQDSRCQ=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 423)
+
+
+Started GET "/" for ::1 at 2019-10-30 17:55:22 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 159)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 42762)
+
+
