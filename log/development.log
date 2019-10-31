@@ -13123,3 +13123,562 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 42079)
 
 
+Started GET "/" for ::1 at 2019-10-31 13:20:18 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 398)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:50
+  Rendered layouts/_navigation.html.erb (Duration: 7.7ms | Allocations: 6454)
+Completed 500 Internal Server Error in 688ms (ActiveRecord: 0.8ms | Allocations: 1331502)
+
+
+  
+ActionView::Template::Error (undefined method `admin?' for nil:NilClass):
+    54:       </li>
+    55:       <li class="nav-item dropdown">
+    56:         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    57:           Your Profile <%= "Admin" if current_user.admin? %>
+    58:         </a>
+    59:         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    60:           <%= link_to "Edit your profile", edit_user_path(current_user), class: "dropdown-item" %>
+  
+app/views/layouts/_navigation.html.erb:57
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2019-10-31 13:23:14 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 360)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 4.2ms | Allocations: 4836)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 204)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 146)
+Completed 200 OK in 606ms (Views: 600.2ms | ActiveRecord: 0.4ms | Allocations: 1331193)
+
+
+Started GET "/" for ::1 at 2019-10-31 13:24:32 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 349)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 4.7ms | Allocations: 4832)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 204)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 624ms (Views: 617.8ms | ActiveRecord: 0.4ms | Allocations: 1331256)
+
+
+Started GET "/" for ::1 at 2019-10-31 13:25:29 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 164)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 1496)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.1ms | Allocations: 45232)
+
+
+Started GET "/" for ::1 at 2019-10-31 13:26:26 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 164)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 1567)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.1ms | Allocations: 45300)
+
+
+Started GET "/categories/1" for ::1 at 2019-10-31 13:26:30 -0500
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 74)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 1119)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.1ms | Allocations: 43636)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 13:26:33 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2925)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 1066)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.5ms | Allocations: 46059)
+
+
+Started GET "/categories?page=2" for ::1 at 2019-10-31 13:26:35 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1999)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 1061)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.5ms | Allocations: 44987)
+
+
+Started GET "/categories?page=2" for ::1 at 2019-10-31 13:28:52 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2205)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 1590)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.3ms | Allocations: 47454)
+
+
+Started GET "/login" for ::1 at 2019-10-31 13:29:02 -0500
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2377)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 1069)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.1ms | Allocations: 45814)
+
+
+Started POST "/login" for ::1 at 2019-10-31 13:29:07 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"eRrLsIGynM7eqxHv4hXTxaRwRMLyeekQ4/yYxvHVUaUYdUdcRUBF/24WtniM0jb1NrpPhfeaBPC1/Xin04TZWA==", "session"=>{"email"=>"johndoe@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "johndoe@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3001/users/11
+Completed 302 Found in 196ms (ActiveRecord: 0.5ms | Allocations: 7515)
+
+
+Started GET "/users/11" for ::1 at 2019-10-31 13:29:07 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:56:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 11]]
+  ↳ app/views/users/show.html.erb:9
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 11], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  Rendered articles/_article.html.erb (Duration: 1.6ms | Allocations: 952)
+  Rendered users/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2101)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 342.3ms | Allocations: 203291)
+Completed 500 Internal Server Error in 386ms (ActiveRecord: 0.8ms | Allocations: 251514)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `curent_user' for #<#<Class:0x00007f6c8724f950>:0x00007f6c8724dad8>
+Did you mean?  current_user):
+    49:           <% Category.all.each do |category| %>
+    50:             <%= link_to "#{category.name}", category_path(category), class: "dropdown-item" %>
+    51:           <% end %>
+    52:           <% if logged_in? and curent_user.admin? %>
+    53:             <%= link_to "Create new category", new_category_path, class: "dropdown-item" %>
+    54:           <% end %>
+    55:         </div>
+  
+app/views/layouts/_navigation.html.erb:52
+app/views/layouts/application.html.erb:14
+Started GET "/users/11" for ::1 at 2019-10-31 13:29:26 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:56:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 11]]
+  ↳ app/views/users/show.html.erb:9
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 11], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  Rendered articles/_article.html.erb (Duration: 0.8ms | Allocations: 920)
+  Rendered users/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2053)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.9ms | Allocations: 2279)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 209)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 141)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.6ms | Allocations: 48725)
+
+
+Started DELETE "/logout" for ::1 at 2019-10-31 13:29:40 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Wl7TdBE4wCECLVeycFQxpvQ7iHcfwph0hpmTfR1kLllTvD6EtCqaBfgjUS8b0n3Jet7nMFrcOfXaw+JWn0M3Xw=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 375)
+
+
+Started GET "/" for ::1 at 2019-10-31 13:29:40 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 163)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 1070)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.1ms | Allocations: 43672)
+
+
+Started GET "/login" for ::1 at 2019-10-31 13:29:42 -0500
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 742)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 1069)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.1ms | Allocations: 44230)
+
+
+Started POST "/login" for ::1 at 2019-10-31 14:19:14 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"trb73j8vbvt6g1m9uBCdqSvDCj+OtPRe+g1G65ctaLPX2Xcy+923yso+/irW13iZuQkBeItXGb6sDKaKtXzgTg==", "session"=>{"email"=>"joe@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "joe@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3001/users/5
+Completed 302 Found in 188ms (ActiveRecord: 0.1ms | Allocations: 977)
+
+
+Started GET "/users/5" for ::1 at 2019-10-31 14:19:14 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:56:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/views/users/show.html.erb:9
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 5], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered articles/_article.html.erb (Duration: 9.6ms | Allocations: 8930)
+  Rendered users/show.html.erb within layouts/application (Duration: 10.9ms | Allocations: 10449)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 1177)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.7ms | Allocations: 54130)
+
+
+Started DELETE "/logout" for ::1 at 2019-10-31 14:19:22 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6j3IkKosP6wFbL/m3TjNAbgpH7BnRoUiMEbNX14RoZXj3yVgDz5liP9iuXu2voFuNsxw9yJYJKNsHLx03Da4kw=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Started GET "/" for ::1 at 2019-10-31 14:19:22 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 60)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 1070)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.1ms | Allocations: 43011)
+
+
+Started GET "/login" for ::1 at 2019-10-31 14:19:28 -0500
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 456)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 1063)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.1ms | Allocations: 43366)
+
+
+Started POST "/login" for ::1 at 2019-10-31 14:19:33 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"rbHdIV9Pv2JBZUDB3OssEhj+vUe6yfT07HZxnmyVgwDM3lHNm71mU/HY51ayLMkiijS2AL8qGRS6d5H/TsQL/Q==", "session"=>{"email"=>"joe@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "joe@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3001/users/5
+Completed 302 Found in 213ms (ActiveRecord: 0.3ms | Allocations: 955)
+
+
+Started GET "/users/5" for ::1 at 2019-10-31 14:19:33 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:56:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/views/users/show.html.erb:9
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 5], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendered articles/_article.html.erb (Duration: 2.2ms | Allocations: 2441)
+  Rendered users/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3945)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 1155)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.4ms | Allocations: 47666)
+
+
+Started DELETE "/logout" for ::1 at 2019-10-31 14:19:44 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"d38IPnw2JpONfs9ct3DMfh2F9s1vx56Ff8hApn0MTEd+neXO2SR8t3dwycHc9oARk2CZiirZPwQjkjGN/ytVQQ=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Started GET "/" for ::1 at 2019-10-31 14:19:44 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 1065)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 33)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.1ms | Allocations: 43008)
+
+
+Started GET "/login" for ::1 at 2019-10-31 14:19:47 -0500
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 456)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 1063)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.1ms | Allocations: 43361)
+
+
+Started POST "/login" for ::1 at 2019-10-31 14:19:57 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"N3Hn8DDpUERTMJbL846mYp+J+yx2kenuY4yA514bTAFWHmsc9BuJdeONMVydSUNSDUPwa3NyBA41jWCGfErE/A==", "session"=>{"email"=>"johndoe@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "johndoe@example.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://localhost:3001/users/11
+Completed 302 Found in 217ms (ActiveRecord: 0.4ms | Allocations: 953)
+
+
+Started GET "/users/11" for ::1 at 2019-10-31 14:19:57 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:56:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 11]]
+  ↳ app/views/users/show.html.erb:9
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 11], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  Rendered articles/_article.html.erb (Duration: 0.8ms | Allocations: 629)
+  Rendered users/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1427)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 2.2ms | Allocations: 1750)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.4ms | Allocations: 45744)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 14:20:02 -0500
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.6ms | Allocations: 221)
+  Rendered categories/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1410)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 1195)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 42ms (Views: 38.0ms | ActiveRecord: 0.3ms | Allocations: 45560)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 14:20:06 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"XGr7t15m3JOkCHD6VwaFVriLoujcyL9WOrpJkIeR6fTnGaRY9isHJi9KXHNMzYQCRGOAAsLTbst3NgrHGaewCw==", "category"=>{"name"=>"def"}, "commit"=>"Create Category"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:15:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "def"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:15:in `create'
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "def"], ["created_at", "2019-10-31 19:20:06.573235"], ["updated_at", "2019-10-31 19:20:06.573235"]]
+  ↳ app/controllers/categories_controller.rb:15:in `create'
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:15:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 8ms (ActiveRecord: 3.5ms | Allocations: 5337)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 14:20:06 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2328)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 1784)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.4ms | Allocations: 46196)
+
+
+Started GET "/categories?page=2" for ::1 at 2019-10-31 14:20:08 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2035)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.7ms | Allocations: 1775)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.4ms | Allocations: 45739)
+
+
+Started GET "/logout" for ::1 at 2019-10-31 14:20:29 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-31 14:20:40 -0500
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+Redirected to http://localhost:3001/articles
+Completed 302 Found in 12ms (ActiveRecord: 0.8ms | Allocations: 7862)
+
+
+Started GET "/articles" for ::1 at 2019-10-31 14:20:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/articles/_article.html.erb:1
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:11
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:11
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/articles/_article.html.erb:11
+  Rendered articles/_article.html.erb (Duration: 17.6ms | Allocations: 11144)
+  Rendered articles/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 13775)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 4.1ms | Allocations: 4648)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 203)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 536ms (Views: 532.4ms | ActiveRecord: 1.1ms | Allocations: 1341984)
+
+
+Started DELETE "/logout" for ::1 at 2019-10-31 14:20:43 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vLEjA1xErD+oESZz2dYEdizGRFbEoDr/catQ2ri8b6a1U87z+Vb2G1IfIO6yUEgZoiMrEYG+m34t8SHxOpt2oA=="}
+Redirected to http://localhost:3001/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 394)
+
+
+Started GET "/" for ::1 at 2019-10-31 14:20:44 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 169)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/layouts/_navigation.html.erb:49
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 1128)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.1ms | Allocations: 43775)
+
+
