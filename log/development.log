@@ -12385,3 +12385,469 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 42111)
 
 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCategories (20191031152017)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "categories" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191031152017"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/categories.new" for ::1 at 2019-10-31 11:12:32 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as 
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 215)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 617)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 204)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 146)
+Completed 200 OK in 587ms (Views: 581.0ms | ActiveRecord: 0.0ms | Allocations: 1326945)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 11:12:37 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 5.4ms | Allocations: 1908)
+  Rendered categories/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2382)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2973)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if obj.errors.any? %>
+    2:   <div class="row">
+    3:     <div class="col-xs-8 col-xs-offset-2">
+    4:       <div class="panel panel-danger">
+  
+app/views/shared/_errors.html.erb:1
+app/views/categories/new.html.erb:3
+Started GET "/categories/new" for ::1 at 2019-10-31 11:13:36 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered categories/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2307)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 158)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.4ms | Allocations: 48160)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 11:25:06 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"YkQt813IJl4ta9hHMJuGRiQf+fF+cEFFnhfs1Hy5LK5rpsAD+Np8etdl3tpbHcopqvqWtjtu4MTCTZ3//p41qA==", "category"=>{"name"=>""}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", ""], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.6ms | Allocations: 497)
+  Rendered categories/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2137)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 579)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 204)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 652ms (Views: 630.0ms | ActiveRecord: 0.8ms | Allocations: 1334354)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 11:25:12 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"8Wnn1noJ0K6td+6CQlKG80iLyCkTYBa8IbLyv/9Bysz4iwom3xuKild56B8p1Mqcxm6nblZ+tz196IOUfWbTyg==", "category"=>{"name"=>"sports"}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "sports"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "sports"], ["created_at", "2019-10-31 16:25:12.098217"], ["updated_at", "2019-10-31 16:25:12.098217"]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 9ms (ActiveRecord: 3.3ms | Allocations: 4850)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 11:25:12 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:3
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1034)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 543)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 209)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 141)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms | Allocations: 47420)
+
+
+Started GET "/categories/1" for ::1 at 2019-10-31 11:25:18 -0500
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 42269)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 11:25:21 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:3
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 625)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.1ms | Allocations: 42638)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 11:26:02 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 784)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 543)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.2ms | Allocations: 44909)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 11:26:32 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 803)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 543)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.2ms | Allocations: 44925)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 11:26:52 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 781)
+  Rendered layouts/_navigation.html.erb (Duration: 11.9ms | Allocations: 543)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 197)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 141)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.1ms | Allocations: 44909)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/srlane/.rbenv/versions/2.6.3/bin/rake:23)
+Started GET "/categories" for ::1 at 2019-10-31 12:38:38 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 4592)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 580)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 204)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 146)
+Completed 200 OK in 687ms (Views: 677.5ms | ActiveRecord: 0.5ms | Allocations: 1331645)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 12:38:45 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.3ms | Allocations: 221)
+  Rendered categories/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2898)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 158)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 27)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 45057)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 12:38:51 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"mtobhZ/wbIU7juhPqlN7TcB2RsUp8spUoC5jRpWHUQGTOPZ1OuI2ocGA7tLB1TciTpMpgmzsa9X8dBJtF6BIBw==", "category"=>{"name"=>"programming"}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "programming"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "programming"], ["created_at", "2019-10-31 17:38:51.165094"], ["updated_at", "2019-10-31 17:38:51.165094"]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 9ms (ActiveRecord: 3.6ms | Allocations: 5123)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 12:38:51 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1369)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.2ms | Allocations: 43455)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 12:38:53 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered categories/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 632)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 153)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.0ms | Allocations: 42660)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 12:39:00 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"/SSivqpe/UYrzerizxVYmzduFlJlxofA4n3pU8s96Uz0xk9OD0ynYtHD7H+kkxT0uYt5FSDYJkG+J5h4SRrwSg==", "category"=>{"name"=>"politics"}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "politics"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "politics"], ["created_at", "2019-10-31 17:39:00.595372"], ["updated_at", "2019-10-31 17:39:00.595372"]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 8ms (ActiveRecord: 3.4ms | Allocations: 4510)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 12:39:00 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1390)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms | Allocations: 43473)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 12:39:04 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered categories/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 631)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 153)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 42643)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 12:39:07 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"laRgF5iTT/rNr9u+Ea7+4Lrg/UVx/zN8eTRsILqs2pqcRo3nPYEV3jeh3SN6KLKPNAWSAjThkv0lbh0LOIvDnA==", "category"=>{"name"=>"food"}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "food"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "food"], ["created_at", "2019-10-31 17:39:07.027720"], ["updated_at", "2019-10-31 17:39:07.027720"]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 7ms (ActiveRecord: 3.4ms | Allocations: 4501)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 12:39:07 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1427)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.2ms | Allocations: 43515)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 12:39:09 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered categories/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 631)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 153)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 42648)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 12:39:14 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"QsokZf0N1/SsAc5mNhI1wQkxT+PVjB0s771iUajx2ARLKMmVWB+N0FYPyPtdlHmuh9QgpJCSvK2z5xN6KtbBAg==", "category"=>{"name"=>"entertainment"}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "entertainment"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "entertainment"], ["created_at", "2019-10-31 17:39:14.116054"], ["updated_at", "2019-10-31 17:39:14.116054"]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 20ms (ActiveRecord: 3.3ms | Allocations: 4500)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 12:39:14 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1465)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.2ms | Allocations: 43564)
+
+
+Started GET "/categories/new" for ::1 at 2019-10-31 12:39:16 -0500
+Processing by CategoriesController#new as HTML
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered categories/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 631)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 153)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 42641)
+
+
+Started POST "/categories" for ::1 at 2019-10-31 12:39:23 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"Ehr63Mfo49AJ+I+3NaiQc8T+NGu/bMnA7YEc20XHVDgb+BcsYvq59PP2iSpeLtwcShtbLPpyaEGx223wx+BNPg==", "category"=>{"name"=>"health"}, "commit"=>"Create Category"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "health"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "health"], ["created_at", "2019-10-31 17:39:23.829307"], ["updated_at", "2019-10-31 17:39:23.829307"]]
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:13:in `create'
+Redirected to http://localhost:3001/categories
+Completed 302 Found in 8ms (ActiveRecord: 3.3ms | Allocations: 4501)
+
+
+Started GET "/categories" for ::1 at 2019-10-31 12:39:23 -0500
+Processing by CategoriesController#index as HTML
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2644)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 34)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.2ms | Allocations: 44736)
+
+
+Started GET "/categories?page=2" for ::1 at 2019-10-31 12:39:26 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1963)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.2ms | Allocations: 44035)
+
+
+Started GET "/categories?page=1" for ::1 at 2019-10-31 12:39:27 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2120)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.2ms | Allocations: 44215)
+
+
+Started GET "/categories?page=2" for ::1 at 2019-10-31 12:39:30 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1963)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.3ms | Allocations: 44040)
+
+
+Started GET "/categories?page=1" for ::1 at 2019-10-31 12:39:32 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2122)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.3ms | Allocations: 44200)
+
+
+Started GET "/categories?page=2" for ::1 at 2019-10-31 12:39:34 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 5]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1961)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.2ms | Allocations: 44025)
+
+
+Started GET "/categories?page=1" for ::1 at 2019-10-31 12:39:35 -0500
+Processing by CategoriesController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering categories/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/categories/index.html.erb:5
+  Rendered categories/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2116)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 154)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 26)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.2ms | Allocations: 44190)
+
+
